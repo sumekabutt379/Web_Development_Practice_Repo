@@ -26,4 +26,9 @@ a::before{
 a::after{
     content: "link";
 }
+.box{
+    border: 2px solid black;
+    margin: 30px;
+    padding: 60px 30px;
+}
  

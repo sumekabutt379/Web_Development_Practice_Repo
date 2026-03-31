@@ -27,8 +27,11 @@ a::after{
     content: "link";
 }
 .box{
+    width: 500px;
+    height: 100px;
     border: 2px solid black;
     margin: 30px;
     padding: 60px 30px;
+    overflow: hidden;
 }
  

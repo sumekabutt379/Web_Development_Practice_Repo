@@ -27,11 +27,23 @@ a::after{
     content: "link";
 }
 .box{
-    width: 500px;
+    width: 200px;
     height: 100px;
     border: 2px solid black;
     margin: 30px;
     padding: 60px 30px;
-    overflow: hidden;
+    /* overflow:scroll; */
+    /* display:flex;
+    align-items: flex-start;
+    justify-content: center; */
 }
- 
+.parent{
+    display: flex;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+     background-color: yellow;
+    border: 2px solid red;
+    margin: 70px;
+}

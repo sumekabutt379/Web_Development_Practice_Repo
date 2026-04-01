@@ -47,3 +47,33 @@ a::after{
     border: 2px solid red;
     margin: 70px;
 }
+.block{
+    display: block;
+    background-color: lightcoral;
+    margin: 10px;
+}
+.inline{
+      display: inline;
+    background-color: darkcyan;
+    margin: 10px;
+}
+.inlineblock{
+ display: inline-block;
+    background-color: darkgrey;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+}
+.hidden{
+     display:none;
+    background-color: darkgrey;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+}
+.visible{
+    background-color: darkgrey;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+}

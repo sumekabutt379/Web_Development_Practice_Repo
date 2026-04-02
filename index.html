@@ -3,11 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Web Practice</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+       <link rel="stylesheet" href="style.css"/>
+    <link href=" https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+    <title>Portfolio</title>
+
 <body>
-    <h2 class="title "> Student Table </h2>
+
+ <header class="navbar">
+
+     <h1 class="logo">SiaButt</h1>
+     <nav>
+        <ul class="nav-links">
+
+      <li><a href="#">About</a></li>
+       <li> <a href="#">Skills</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+     </nav>
+ </header>
+ <section class="hero">
+        <img src="images/portfolio img.jpeg" alt="My Portfolio"class="hero-img"/>
+        <div class="hero-text">
+            <h2>Hey I'm SIA BUTT</h2>
+            <p> a passionate web developer specializing in creating clean, responsive, and visually appealing websites.</p>
+        </div>
+       
+
+ </section>
+ <section class="about" id="about">
+    <h2>About me</h2>
+    <p>I am a frontend developer with a passion for converting ideas into visually appealing and user-friendly web experiences</p>
+    <ul class="hobbies">
+        <li>Coding</li>
+        <li>Reading</li>
+        <li>Cooking</li>
+        <li>Sleeping</li>
+        <li>Music</li>
+
+    </ul>
+ </section>
+ <h2  id="skil">My skills</h2>
+ <section class="skills" id="skills">
+    <!-- <h2>My skills</h2> -->
+    <div class="cards-container">
+        <div class="cards">
+           <img src="images/html.png">
+            <h3>HTML</h3>
+        <p>Buildng structure with the help of semantics tag</p>
+        </div>
+        <div class="cards">
+            <img src="images/css.png">
+            <h3>CSS</h3>
+        <p>Styling using flex box and box model</p>
+        </div>
+        <div class="cards">
+             <img src="images/js.png">
+            <h3>JAVASCRPT</h3>
+        <p>Adding logic to website</p>
+        </div>
+        <div class="cards">
+            <img src="images/anglr.png">
+            <h3>ANGULAR</h3>
+        <p>Building modern web apps</p>
+        </div>
+        
+    </div>
+ </section>
+ <section class="Contact" id="Contact">
+    <h2>Contact Me</h2>
+    <form>
+        <label for="Name">Name</label>
+        <input type="text" id="Name" placeholder="Enter your name"/>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" placeholder="Enter your email"/>
+        <label for="Massage">Massage</label>
+        <textarea id="Massage" row="5" placeholder="Write your massage...."></textarea>
+        <button type="submit">Send massages</button>
+
+    </form>
+ </section>
+ <footer class="footer">
+    <p>&copy;2024 Siabutt All Right reserve</p>
+    <div class="Social-links">
+    <a href="https://github.com" target="_blank">Github</a>
+    <a href="https://instagram.com" target="_blank">instagram</a>
+    <a href="https://tiktok.com" target="_blank">Tiktok</a>
+    </div>
+ </footer>
+
+     
+    <!-- <h2 class="title "> Student Table </h2>
     <table border="1">
       <tr>
         <th>Name</th>
@@ -31,9 +117,9 @@
 </tr>
     </table>
     <!-- //anchor tag  -->
-    <a href="https://www.google.com"> Google</a>
+    <!-- <a href="https://www.google.com"> Google</a> -->
     <!-- lea margin in cs -->
-     <div class="box">
+     <!-- <div class="box">
        box one 
      </div>
      <div class="box">
@@ -65,8 +151,8 @@
         <div>b</div>
         <div>c</div>
         <div>d</div>
-        <div>e</div>
-     </div>
+        <div>e</div> -->
+     <!-- </div> -->
 
 </body>
 </html>

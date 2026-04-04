@@ -411,4 +411,35 @@ footer p{
     }
 }
 
+li:nth-child(odd){
+ color: red;
+}
+#transition{
+background:blue ;
+transition:all 0.9s ease-in-out ;
+
+}
+#transition:hover{
+    background-color: red;
+
+}
+
+ .abcd{
+    width: 100px;
+    height:100px ;
+    background: #5a0c37;
+    margin:50px;
+    animation: move 10s;
+    
+
+ }
+ @keyframes move{
+    from{
+        background: #bbac21;
+    }
+    to{
+        background: #ff0404;
+    }
+    }
+ 
 
